@@ -1,1 +1,1 @@
-# exolve-voice-sdk-ios
+# exolve-voice-sdk
