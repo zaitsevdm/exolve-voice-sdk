@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ExolveVoiceSDK",
-            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/0.0.44-noapidev/ExolveVoiceSDK.xcframework.zip",
-            checksum: "8b5ff3c0439d52ebb796096c263aac80ace931dccb9bc6a241810adc7c7be1ee"
+            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/0.0.45-dev/ExolveVoiceSDK.xcframework.zip",
+            checksum: "660766650837e08c40a721e7d82c2c36910eb110ee8090f2b462d78e4f3f23c3"
         )
     ]
 )
