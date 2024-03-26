@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ExolveVoiceSDK"
+    name: "ExolveVoiceSDK",
     platforms: [
         .iOS(.v13)
     ],
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ExolveVoiceSDK",
-            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/1.0.12-test2/ExolveVoiceSDK.xcframework.zip",
-            checksum: "12edeca34e771f58dbe8ad7bd3284debb2d7ed94803293f62cc554110a420663"
+            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/1.0.12-test3/ExolveVoiceSDK.xcframework.zip",
+            checksum: "f7d245e20d4f71cee68fb8822bfe0ce93c872cbbaf3a73e87e87478515dadf04"
         )
     ]
 )
