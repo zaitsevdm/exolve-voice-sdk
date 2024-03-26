@@ -11,15 +11,15 @@ let package = Package(
     products: [
         .library(
             name: "ExolveVoiceSDK",
-            targets: ["ExolveVoiceSDK"]
+            targets: ["ExolveVoiceSDK"])
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
             name: "ExolveVoiceSDK",
-            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/1.0.12-test3/ExolveVoiceSDK.xcframework.zip",
-            checksum: "f7d245e20d4f71cee68fb8822bfe0ce93c872cbbaf3a73e87e87478515dadf04"
+            url: "https://github.com/zaitsevdm/exolve-voice-sdk/releases/download/1.0.12-test4/ExolveVoiceSDK.xcframework.zip",
+            checksum: "6b26e4f22cecb8318a3526de60ed7efcb42583b5417bb18d247f42e3279c5b92"
         )
     ]
 )
