@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>CallKitConfiguration Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">ExolveVoiceSDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">MTT</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/_Nonnull">_Nonnull</option>
+		
+		<option value="//api/name/dtmfEnabled">dtmfEnabled</option>
+		
+		<option value="//api/name/iconTemplateImage">iconTemplateImage</option>
+		
+		<option value="//api/name/includesCallsInRecents">includesCallsInRecents</option>
+		
+		<option value="//api/name/notifyInForeground">notifyInForeground</option>
+		
+		<option value="//api/name/omitRemoteHandle">omitRemoteHandle</option>
+		
+		<option value="//api/name/ringtoneSound">ringtoneSound</option>
+		
+		<option value="//api/name/useGenericHandleType">useGenericHandleType</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/defaultConfiguration">+ defaultConfiguration</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithIcon:ringtone:showInRecents:">- initWithIcon:ringtone:showInRecents:</option>
+		
+		<option value="//api/name/initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:">- initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">CallKitConfiguration Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>CallKitConfiguration.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>The CallKit configuration</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/defaultConfiguration" title="defaultConfiguration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/defaultConfiguration">+&nbsp;defaultConfiguration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get configuration instance with default values set</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull instancetype)defaultConfiguration</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>configuration instance</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:" title="initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:">&ndash;&nbsp;initWithIcon:ringtone:showInRecents:notifyInForeground:enableDtmf:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initialize CallKit configuration with specified options</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull instancetype)initWithIcon:(nullable UIImage *)<em>iconTemplateImageResource</em> ringtone:(nullable NSString *)<em>ringtoneSound</em> showInRecents:(BOOL)<em>includesCallsInRecents</em> notifyInForeground:(BOOL)<em>enableForegroundNotifications</em> enableDtmf:(BOOL)<em>enableDtmf</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>iconTemplateImageResource</code></th>
+						<td><p>image</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ringtoneSound</code></th>
+						<td><p>sound file</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>includesCallsInRecents</code></th>
+						<td><p>YES to show calls in recent calls list</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enableForegroundNotifications</code></th>
+						<td><p>enable CallKit notifications even when app is in foreground</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>enableDtmf</code></th>
+						<td><p>enable dtmf section in calls</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>configuration instance</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithIcon:ringtone:showInRecents:" title="initWithIcon:ringtone:showInRecents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithIcon:ringtone:showInRecents:">&ndash;&nbsp;initWithIcon:ringtone:showInRecents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Convenience initializer</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull instancetype)initWithIcon:(nullable UIImage *)<em>iconTemplateImageResource</em> ringtone:(nullable NSString *)<em>ringtoneSound</em> showInRecents:(BOOL)<em>includesCallsInRecents</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>iconTemplateImageResource</code></th>
+						<td><p>image</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>ringtoneSound</code></th>
+						<td><p>sound file</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>includesCallsInRecents</code></th>
+						<td><p>YES to show calls in recent calls list</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>configuration instance</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Convenience initializer</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull instancetype)init</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>configuration instance</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/iconTemplateImage" title="iconTemplateImage"></a>
+	<h3 class="method-title"><code><a href="#//api/name/iconTemplateImage">&nbsp;&nbsp;iconTemplateImage</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Icon image</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nonnull) UIImage *iconTemplateImage</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/ringtoneSound" title="ringtoneSound"></a>
+	<h3 class="method-title"><code><a href="#//api/name/ringtoneSound">&nbsp;&nbsp;ringtoneSound</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Ringtone sound file</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) NSString *ringtoneSound</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/includesCallsInRecents" title="includesCallsInRecents"></a>
+	<h3 class="method-title"><code><a href="#//api/name/includesCallsInRecents">&nbsp;&nbsp;includesCallsInRecents</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Add (or not) call in recent calls list</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL includesCallsInRecents</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/notifyInForeground" title="notifyInForeground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/notifyInForeground">&nbsp;&nbsp;notifyInForeground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Show CallKit UI when app is in foreground (disabled by default)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL notifyInForeground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dtmfEnabled" title="dtmfEnabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dtmfEnabled">&nbsp;&nbsp;dtmfEnabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Show DTMF section in calls (disabled by default)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL dtmfEnabled</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/_Nonnull" title="_Nonnull"></a>
+	<h3 class="method-title"><code><a href="#//api/name/_Nonnull">&nbsp;&nbsp;_Nonnull</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Handler to search contact name by incoming call&rsquo;s number<br>
+Can be nil if replacing call number with contact name not needed</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, nullable) void ( ^ ) ( NSString *callNumber , void ( ^ callback ) ( NSString *) ) _Nonnull</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/useGenericHandleType" title="useGenericHandleType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/useGenericHandleType">&nbsp;&nbsp;useGenericHandleType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set this to YES make CallKit UI display only name found by your handler.<br>
+CallKit uses contact info from address book and ignores provided caller name. We can use different handle type to suppress such behavior.
+Note that you will need access address book by yourself if you still want to display device contacts,
+and that Recents will still show caller info from Contacts regardless of this option.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL useGenericHandleType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/omitRemoteHandle" title="omitRemoteHandle"></a>
+	<h3 class="method-title"><code><a href="#//api/name/omitRemoteHandle">&nbsp;&nbsp;omitRemoteHandle</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set this if <a href="#//api/name/useGenericHandleType">useGenericHandleType</a> is not enough for you task.<br>
+You will have to provide contact name, otherwise it will be displayed as Unknown. Calls will not be shown in Recents.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL omitRemoteHandle</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">CallKitConfiguration.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2024 MTT. All rights reserved. Updated: 2024-12-18</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

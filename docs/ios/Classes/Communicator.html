@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Communicator Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">ExolveVoiceSDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">MTT</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/communicatorForOutgoingCalls:">+ communicatorForOutgoingCalls:</option>
+		
+		<option value="//api/name/communicatorForOutgoingCalls:environment:">+ communicatorForOutgoingCalls:environment:</option>
+		
+		<option value="//api/name/communicatorWithConfiguration:">+ communicatorWithConfiguration:</option>
+		
+		<option value="//api/name/communicatorWithConfiguration:environment:">+ communicatorWithConfiguration:environment:</option>
+		
+		<option value="//api/name/instance">+ instance</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addVoipPushNotificationReceivedHandler:">- addVoipPushNotificationReceivedHandler:</option>
+		
+		<option value="//api/name/callClient">- callClient</option>
+		
+		<option value="//api/name/configurationManager">- configurationManager</option>
+		
+		<option value="//api/name/getVersionInfo">- getVersionInfo</option>
+		
+		<option value="//api/name/retrieveVoipPushToken:">- retrieveVoipPushToken:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">Communicator Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>Communicator.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>SDK&rsquo;s configuration and initialization</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/instance" title="instance"></a>
+	<h3 class="method-title"><code><a href="#//api/name/instance">+&nbsp;instance</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Communicator instance created earlier</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull Communicator *)instance</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the Communicator instance</p>
+
+<p>Will throw an exception if the instance has not been initialized</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/communicatorWithConfiguration:" title="communicatorWithConfiguration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/communicatorWithConfiguration:">+&nbsp;communicatorWithConfiguration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates Communicator <a href="#//api/name/instance">instance</a> with provided configuration</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull Communicator *)communicatorWithConfiguration:(nonnull Configuration *)<em>configuration</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>configuration</code></th>
+						<td><p>SDK configuration</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Communicator singleton <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/communicatorWithConfiguration:environment:" title="communicatorWithConfiguration:environment:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/communicatorWithConfiguration:environment:">+&nbsp;communicatorWithConfiguration:environment:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates Communicator <a href="#//api/name/instance">instance</a> with provided configuration</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull Communicator *)communicatorWithConfiguration:(nonnull Configuration *)<em>configuration</em> environment:(nullable NSString *)<em>environment</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>configuration</code></th>
+						<td><p>SDK configuration</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>environment</code></th>
+						<td><p>reserved</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Communicator singleton <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/communicatorForOutgoingCalls:" title="communicatorForOutgoingCalls:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/communicatorForOutgoingCalls:">+&nbsp;communicatorForOutgoingCalls:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates Communicator <a href="#//api/name/instance">instance</a> configured to allow only outgoing calls.
+Irrelevant configuration options will be ignored.
+After account activation client will be in Offline state.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull Communicator *)communicatorForOutgoingCalls:(nonnull Configuration *)<em>configuration</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>configuration</code></th>
+						<td><p>SDK configuration</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Communicator singleton <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/communicatorForOutgoingCalls:environment:" title="communicatorForOutgoingCalls:environment:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/communicatorForOutgoingCalls:environment:">+&nbsp;communicatorForOutgoingCalls:environment:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Creates Communicator <a href="#//api/name/instance">instance</a> configured to allow only outgoing calls.
+Irrelevant configuration options will be ignored.
+After account activation client will be in Offline state.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull Communicator *)communicatorForOutgoingCalls:(nonnull Configuration *)<em>configuration</em> environment:(nullable NSString *)<em>environment</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>configuration</code></th>
+						<td><p>SDK configuration</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>environment</code></th>
+						<td><p>reserved</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Communicator singleton <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getVersionInfo" title="getVersionInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getVersionInfo">&ndash;&nbsp;getVersionInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Get SDK version info</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull VersionInfo *)getVersionInfo</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/callClient" title="callClient"></a>
+	<h3 class="method-title"><code><a href="#//api/name/callClient">&ndash;&nbsp;callClient</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/Call.html">Call</a> client <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull CallClient *)callClient</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the call client <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/configurationManager" title="configurationManager"></a>
+	<h3 class="method-title"><code><a href="#//api/name/configurationManager">&ndash;&nbsp;configurationManager</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/Configuration.html">Configuration</a> manager <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull ConfigurationManager *)configurationManager</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the configuration manager <a href="#//api/name/instance">instance</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/retrieveVoipPushToken:" title="retrieveVoipPushToken:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/retrieveVoipPushToken:">&ndash;&nbsp;retrieveVoipPushToken:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Callback to obtain a VOIP push token in the application</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)retrieveVoipPushToken:(nonnull void ( ^ ) ( NSString *_Nonnull ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>a block with a NSString parameter in which the application will receive a VOIP push token</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addVoipPushNotificationReceivedHandler:" title="addVoipPushNotificationReceivedHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addVoipPushNotificationReceivedHandler:">&ndash;&nbsp;addVoipPushNotificationReceivedHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Add Callback to obtain a VOIP push notification in the application</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addVoipPushNotificationReceivedHandler:(nonnull void ( ^ ) ( NSString *_Nonnull ))<em>notificationReceivedHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>notificationReceivedHandler</code></th>
+						<td><p>a block with a NSString parameter in which the application will receive a VOIP push notification</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Communicator.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2024 MTT. All rights reserved. Updated: 2024-12-18</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
